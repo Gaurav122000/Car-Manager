@@ -1,0 +1,99 @@
+.editcar-wrapper {
+    background: url('../../../public/image/car image 2.jpg') center/cover no-repeat;  
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.editcar-center {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.editcar-form {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.editcar-input,
+.editcar-textarea,
+.editcar-file-input,
+.editcar-submit-button {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.editcar-input:focus,
+.editcar-textarea:focus,
+.editcar-file-input:focus {
+  border-color: #007bff;
+}
+
+.editcar-textarea {
+  resize: none;
+  min-height: 100px;
+}
+
+.editcar-submit-button {
+  background-color: #ff7b54;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border: none;
+}
+
+.editcar-submit-button:hover {
+  background-color: #f79071;
+}
+
+.editcar-file-input {
+  border: none;
+  background-color: #f8f9fa;
+  cursor: pointer;
+}
+
+.editcar-file-input::file-selector-button {
+  padding: 5px 10px;
+  background-color: #ff7b54;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.editcar-file-input::file-selector-button:hover {
+  background-color: #f79071;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .editcar-wrapper {
+      padding: 15px;
+  }
+
+  .editcar-form {
+      padding: 20px;
+  }
+
+  .editcar-submit-button {
+      font-size: 1rem;
+  }
+}

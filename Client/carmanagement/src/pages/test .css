@@ -1,0 +1,55 @@
+.car-detail-container {
+    background: url('../../../public/image/car image 2.jpg') center/cover no-repeat fixed; /* Make background image fixed */
+    height: 100vh;
+    overflow: hidden; 
+    justify-content: center;
+    align-items: center;
+}
+
+.car-detail-content {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 90%;
+    max-width: 800px;
+    max-height: 75vh; 
+    overflow-y: auto; 
+    position: relative;
+}
+
+.car-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.car-slider {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.car-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.car-description {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.back-btn {
+    position: fixed;
+    bottom: 30px;
+    left: 30px;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+   
+}

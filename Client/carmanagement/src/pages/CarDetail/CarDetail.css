@@ -1,0 +1,135 @@
+.car-detail-container {
+    background: url('../../../public/image/car\ image\ 2.jpg') center/cover no-repeat;
+    height: 100vh;
+    overflow: hidden;
+    position: relative; 
+}
+
+.car-detail-content {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 90%;
+    margin: 20px auto;
+    max-width: 800px;
+    max-height: 80vh;
+    overflow-y: auto;
+    position: relative;
+}
+
+.delete-btn {
+    font-size: 2rem;
+    color: #f44336;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.delete-btn:hover {
+    color: #d32f2f;
+}
+
+.edit-btn {
+    font-size: 2rem;
+    color: #4caf50;
+    position: absolute;
+    top: 20px;
+    right: 60px;
+    /* Space between delete and edit button */
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.edit-btn:hover {
+    color: #388e3c;
+}
+
+.car-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.car-slider {
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+  }
+  
+  .car-image {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    object-fit: cover;
+  }
+  
+
+/* .car-slider {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.slider {
+    overflow: hidden;
+    width: 100%;
+}
+
+.car-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+} */
+
+.car-description {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.back-btn {
+    position: fixed;
+    bottom: 30px;
+    left: 30px;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.back-btn:hover {
+    background-color: #0056b3;
+}
+
+@media (max-width: 768px) {
+    .car-detail-content {
+        padding: 20px;
+    }
+
+    .car-title {
+        font-size: 2rem;
+    }
+
+    .car-description {
+        font-size: 1rem;
+    }
+
+    .car-tags {
+        font-size: 1rem;
+    }
+
+    .back-btn {
+        font-size: 1rem;
+        padding: 8px 16px;
+    }
+}
