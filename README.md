@@ -4,6 +4,8 @@ Users can upload up to 10 images per car, a title, a description, and tags - (ca
 This application uses JWT authentication to authenticate its users and maintain the user session, allow users to manage only their
 products, and provide search functionality across products.
 
+![Screenshot 2024-11-16 214153](https://github.com/user-attachments/assets/e12479e1-45f3-4532-b69d-14a7e7dc2db1)
+
 # Steps for application Setup
 Step 1: Open the VS code terminal and paste = ( git clone https://github.com/Gaurav122000/Car-Manager.git ) then press enter.               
 Step 2: Once cloning is successful you will see two directories 1. client and 2. Server. move to client--->carmanagement.                     
